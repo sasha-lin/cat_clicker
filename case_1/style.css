@@ -1,0 +1,30 @@
+body {
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex .flex-item {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.flex .flex-item p {
+    font-size: 14px;
+    line-height: 1.428;
+    color: #333;
+}
+
+.img-circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url('img/unnamed.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
